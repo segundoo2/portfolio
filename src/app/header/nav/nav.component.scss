@@ -1,0 +1,21 @@
+nav {
+    margin-top: 10px;
+
+    ul {
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: space-evenly;
+
+        #inicial {
+            margin-left: -51px;
+            margin-right: 450px;
+        }
+    }
+
+    span.tag {
+        color: pink;
+        font-weight: bold;
+    }
+}
