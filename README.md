@@ -32,5 +32,7 @@
     </ul>
 </p>
 
+Link de acesso: <a>edilsonsegundo.vercel.app</a>
+
 <h2 id="autoria">Desenvolvido por:</h2>
 <p>Edilson Segundo, desenvolvedor web fullstack.</p>
