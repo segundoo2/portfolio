@@ -1,4 +1,4 @@
-## Portifólio de Edilson Segundo
+## Portfólio de Edilson Segundo
 
 ## Sumário
 1. [Introdução](#introducao)
@@ -32,7 +32,7 @@
     </ul>
 </p>
 
-Link de acesso: <a>edilsonsegundo.vercel.app</a>
+[Acesse o portfólio aqui.](edilsonsegundo.vercel.app)
 
 <h2 id="autoria">Desenvolvido por:</h2>
 <p>Edilson Segundo, desenvolvedor web fullstack.</p>
