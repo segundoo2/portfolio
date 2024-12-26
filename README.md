@@ -32,7 +32,7 @@
     </ul>
 </p>
 
-[Acesse o portfólio aqui.](edilsonsegundo.vercel.app)
+[Acesse o portfólio aqui.](https://edilsonsegundo.vercel.app/)
 
 <h2 id="autoria">Desenvolvido por:</h2>
 <p>Edilson Segundo, desenvolvedor web fullstack.</p>
