@@ -1,6 +1,6 @@
 nav {
     margin-top: 10px;
-
+    margin-right: 10px;
     ul {
         display: flex;
         list-style: none;
@@ -9,13 +9,17 @@ nav {
         justify-content: space-evenly;
 
         #inicial {
-            margin-left: -51px;
-            margin-right: 450px;
+            margin-left: -30px;
+            margin-right: 100px;
+            font-family: 'k2d', sans-serif;
+            font-size: 23px;
+            font-weight: lighter;
+            letter-spacing: 5px;
         }
     }
 
     span.tag {
-        color: pink;
+        color: #E4118F;
         font-weight: bold;
     }
 }
