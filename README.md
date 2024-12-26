@@ -36,4 +36,4 @@
 <h2 id="autoria">Desenvolvido por:</h2>
 <p>Edilson Segundo, desenvolvedor web fullstack.</p>
 
-[Portfólio](https://edilsonsegundo.vercel.app/)
+[Acessar Portfólio](https://edilsonsegundo.vercel.app/)
