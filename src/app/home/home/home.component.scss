@@ -12,13 +12,14 @@ section {
     align-items: center;
     width: 50%;
     margin: 0 auto;
-    margin-top:17%;
+    margin-top:16%;
     font: variables.$font-title-typography;
     letter-spacing: 0.2em;
     
     .title-home {
         display: flex;
         flex-direction: column;
+        margin-top: 10%;
 
     }
     
@@ -29,7 +30,6 @@ section {
         height: auto;
         margin-right: 2%;
     }
-
 
     h1 {
         background: variables.$gradient-title-color;
