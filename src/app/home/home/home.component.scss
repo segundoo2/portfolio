@@ -1,0 +1,42 @@
+@use 'variables.scss' as variables;
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 15%;
+    font: bold 1.4em 'Prosto One', sans-serif;
+    letter-spacing: 0.2em;
+
+    h1 {
+        background: variables.$gradient-title-color;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    
+    h2 {
+        align-self: flex-start;
+        align-items: center;
+        margin-top: -1%;
+        margin-left: 5%;
+        letter-spacing: 1em;
+        font: lighter 0.5em 'raleway', sans-serif;
+    }
+
+    span {
+        color: variables.$font-color-web;
+        font-size: 0.5em;
+        vertical-align:   0.6em;
+        justify-self: center;
+    }
+}
