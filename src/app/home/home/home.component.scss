@@ -1,5 +1,4 @@
 @use 'variables.scss' as variables;
-@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -12,11 +11,17 @@ section {
     justify-content: center;
     align-items: center;
     width: 50%;
-    margin: 0 auto 0 auto ;
-    margin-top:12%;
-    font: bold 1.4em 'Prosto One', sans-serif;
+    margin: 0 auto;
+    margin-top:17%;
+    font: variables.$font-title-typography;
     letter-spacing: 0.2em;
+    
+    .title-home {
+        display: flex;
+        flex-direction: column;
 
+    }
+    
     img {
         display: flex;
         flex-direction: row;
@@ -25,10 +30,6 @@ section {
         margin-right: 2%;
     }
 
-    .title-home {
-        display: flex;
-        flex-direction: column;
-    }
 
     h1 {
         background: variables.$gradient-title-color;
