@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderModule } from './header/header.module';
 import { NavComponent } from './header/nav/nav.component';
 import { HomeModule } from './home/home.module';
-import { AboutModule } from '../about/about.module';
+import { AboutModule } from './about/about.module';
 
 @NgModule({
   declarations: [
