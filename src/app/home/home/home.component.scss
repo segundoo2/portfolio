@@ -8,14 +8,27 @@
 
 section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 50%;
-    margin: auto;
-    margin-top: 15%;
+    margin: 0 auto 0 auto ;
+    margin-top:12%;
     font: bold 1.4em 'Prosto One', sans-serif;
     letter-spacing: 0.2em;
+
+    img {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        height: auto;
+        margin-right: 2%;
+    }
+
+    .title-home {
+        display: flex;
+        flex-direction: column;
+    }
 
     h1 {
         background: variables.$gradient-title-color;
@@ -28,7 +41,7 @@ section {
         align-self: flex-start;
         align-items: center;
         margin-top: -1%;
-        margin-left: 5%;
+        margin-left: 1%;
         letter-spacing: 1em;
         font: lighter 0.5em 'raleway', sans-serif;
     }
@@ -37,6 +50,6 @@ section {
         color: variables.$font-color-web;
         font-size: 0.5em;
         vertical-align:   0.6em;
-        justify-self: center;
+        margin-left: -0.8%;
     }
 }
