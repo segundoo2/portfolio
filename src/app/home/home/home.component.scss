@@ -1,3 +1,5 @@
+@use 'variables.scss' as variables;
+
 * {
     margin: 0;
     padding: 0;
@@ -11,14 +13,14 @@ section {
 }
 
 h1 {
-    background: $gradient-title-color;
+    background: variables.$gradient-title-color;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 }
 
 span {
-    color: $font-color-web;
+    color: variables.$font-color-web;
     vertical-align: 0.7em;
     margin-left: 0;
 }
@@ -28,7 +30,7 @@ span {
         flex-direction: column;
         width: 90%;
         margin-top: 30vh;
-        font: $font-title-typography-mobile;
+        font: variables.$font-title-typography-mobile;
         letter-spacing: 0.1em;
     }
 
@@ -68,7 +70,7 @@ span {
         flex-direction: row;
         width: 50%;
         margin-top: 16%;
-        font: $font-title-typography;
+        font: variables.$font-title-typography;
         letter-spacing: 0.2em;
     }
 
