@@ -1,98 +1,104 @@
 @use 'variables.scss' as variables;
 
-@media (max-width: 1023px) {
-    
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+#menu-hamburguer-mobile {
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+menu {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    ul {
+        list-style: none;
+        padding: 0;
+        a {
+            text-decoration: none;
+            color: variables.$font-color;
+        }
+    }
+    span.tag {
+        color: variables.$tag-color;
+        font-weight: bolder;
+    }
+}
+
+@media (max-width: 1245px) {
     nav {
-        display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
         margin-left: 5vw;
         margin-top: 2vh;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
         
         #name-mobile {
             margin-left: 7vw;
-            font: lighter 1em 'k2d', sans-serif !important;
+            font: lighter 5vw 'k2d', sans-serif !important;
             font-style: italic;
             letter-spacing: 15%;
             text-decoration: none;
             color: variables.$font-color;
         }
-        
-        #menu-hamburguer-mobile {
-            background: none;
-            border: none;
-            cursor:  pointer;
-            z-index: 1;
-        }
-        
+
         span {
             color: variables.$font-color;
             font-size: 12vw !important;
         }
-        
     }
-    
+
     menu {
         display: none;
         background-color: rgba(0, 0, 0, 0.776);
         width: 100vw;
         height: 40vh;
-        margin: 0;
-        padding: 0;
-        position: fixed;
-        z-index: 0;
-        top: 0;
         justify-content: center;
         animation: slideDown 0.5s ease-in-out forwards;
 
         @keyframes slideDown {
             from {
-            transform: translateY(-100%);
-            opacity: 0;
+                transform: translateY(-100%);
+                opacity: 0;
             }
             to {
-            transform: translateY(0);
-            opacity: 1;
+                transform: translateY(0);
+                opacity: 1;
             }
         }
-        
+
         #name {
             display: none;
         }
 
         ul {
             flex-direction: column;
-            list-style: none;
-            margin: 0;
             margin-top: 20%;
             margin-left: 12%;
-            padding: 0;
-            
+
             li {
                 margin-bottom: 10%;
             }
-            
-            a {
-                text-decoration: none;
-                color: variables.$font-color;
-            }
-        }
-        span.tag {
-            color: variables.$tag-color;
-            font-weight: bolder;
         }
     }
+
     #menu-hamburguer-mobile {
         display: block;
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1245px) {
     #menu-hamburguer-mobile {
         display: none;
     }
@@ -100,28 +106,17 @@
     #name-mobile {
         display: none;
     }
-    
+
     menu {
         margin-top: 1%;
         margin-right: 1.5%;
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-    
+
         ul {
             display: flex;
-            list-style: none;
-            font-style: italic;
             flex-direction: row;
             gap: 1%;
             justify-content: space-evenly;
-    
-            a {
-                text-decoration: none;
-                color: variables.$font-color;
-            }
-            
+
             #name {
                 margin-left: -2%;
                 margin-right: 10%;
@@ -129,14 +124,6 @@
                 font-style: italic;
                 letter-spacing: 15%;
             }
-
-            
-        }
-        
-        span.tag {
-            color: variables.$tag-color;
-            font-weight: bolder;
-            
         }
     }
 }
