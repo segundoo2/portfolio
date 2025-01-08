@@ -1,3 +1,4 @@
+import { style } from '@angular/animations';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,6 +8,4 @@ import { Component } from '@angular/core';
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.scss'
 })
-export class NavComponent {
-
-}
+export class NavComponent {}
