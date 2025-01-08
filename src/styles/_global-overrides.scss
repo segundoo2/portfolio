@@ -8,7 +8,10 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background: variables.$background-body-gradient;
+    background: 
+    url(../assets/image/background-formas/quadrado-background-alpha.png) no-repeat left top,
+    url(../assets/image/background-formas/triangulos-background-alpha.png) no-repeat right bottom,
+    variables.$background-body-gradient;
     min-height: 100%;
     color: variables.$font-color;
     font: bold 1.25em 'kalam', sans-serif;
