@@ -1,9 +1,28 @@
 button {
-    height: 9vw;
-    width: 50vw;
     border: none;
     border-radius: 90px;
     color: white;
     background-color: rgba(255, 255, 255, 0.075);
     font: lighter 0.8em 'K2D', sans-serif;
+}
+
+@media (max-width: 767px) {
+    button {
+        height: 8vh;
+        width: 40vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    button {
+        height: 8vh;
+        width: 40vw;
+    }
+}
+
+@media (min-width: 1024px) {
+    button {
+        height: 6vh;
+        width: 20vw;
+    }
 }
