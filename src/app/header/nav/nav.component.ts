@@ -8,4 +8,11 @@ import { Component } from '@angular/core';
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.scss'
 })
-export class NavComponent {}
+export class NavComponent {
+  toggleMenu() {
+    const menu = document.querySelector('#menu-navigation') as HTMLElement;
+    if (menu) {
+      menu.style.display = menu.style.display === 'none' ? 'flex' : 'none';
+    }
+  }
+}
