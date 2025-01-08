@@ -1,4 +1,4 @@
-## Portifólio de Edilson Segundo
+## Portfólio de Edilson Segundo
 
 ## Sumário
 1. [Introdução](#introducao)
