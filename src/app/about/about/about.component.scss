@@ -7,7 +7,7 @@
 
 h1 {
     font: variables.$font-title-typography;
-    font-size: 1.7em;
+    font-size: 90%;
     color: transparent;
     background: variables.$gradient-title-color;
     background-clip: text;
@@ -17,14 +17,20 @@ h1 {
 }
 
 p {
-    font: normal 1.5625em 'raleway', san-serif;
-    text-align: justify;
-    letter-spacing: normal;
-    text-indent: 2em;
+    font: normal 80% 'raleway', san-serif;
+    text-align: left;
+    white-space: normal;
+    text-indent: 10vw;
     margin: 0.8%;
 }
 
 a {
     text-decoration: none;
     color: variables.$tag-color;
+}
+
+@media (max-width: 1245px) {
+    #container {
+        padding: 45% 0;
+    }
 }
