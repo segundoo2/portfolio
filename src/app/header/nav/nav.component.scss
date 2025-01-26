@@ -1,4 +1,4 @@
-@use 'variables.scss' as variables;
+@use 'variables' as variables;
 
 nav {
     display: flex;
@@ -8,25 +8,28 @@ nav {
     z-index: 1;
     top: 0;
     left: 0;
+    width: 100%;
+    padding: 1rem;
 }
 
 #menu-hamburguer-mobile {
     background: none;
     border: none;
     cursor: pointer;
-    z-index: 1;
+    z-index: 2;
 }
 
 menu {
     margin: 0;
     padding: 0;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 1%;
+    left: 3%;
     right: 0;
     ul {
         list-style: none;
         padding: 0;
+        display: flex;
         a {
             text-decoration: none;
             color: variables.$font-color;
@@ -41,14 +44,14 @@ menu {
 @media (max-width: 1245px) {
     nav {
         flex-direction: row;
-        margin-left: 5vw;
-        margin-top: 2vh;
-        
+        margin-left: -7vw;
+        margin-top: -0.5vh;
+
         #name-mobile {
             margin-left: 7vw;
             font: lighter 5vw 'k2d', sans-serif !important;
             font-style: italic;
-            letter-spacing: 15%;
+            letter-spacing: 0.15em;
             text-decoration: none;
             color: variables.$font-color;
         }
@@ -63,8 +66,11 @@ menu {
         display: none;
         background-color: rgba(0, 0, 0, 0.776);
         width: 100vw;
-        height: 40vh;
+        height: 100vh;
         justify-content: center;
+        padding: 8vh 5vw;
+        margin-top: -10vh;
+        margin-left: -10vw;
         animation: slideDown 0.5s ease-in-out forwards;
 
         @keyframes slideDown {
@@ -88,6 +94,7 @@ menu {
             margin-left: 12%;
 
             li {
+              font-size: 5vw;
                 margin-bottom: 10%;
             }
         }
@@ -122,7 +129,7 @@ menu {
                 margin-right: 10%;
                 font: lighter 1.3em 'k2d', sans-serif !important;
                 font-style: italic;
-                letter-spacing: 15%;
+                letter-spacing: 0.15em;
             }
         }
     }
