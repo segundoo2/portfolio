@@ -11,6 +11,7 @@
         <li>HTML</li>
         <li>CSS</li>
         <li>Javascript</li>
+        <li>Typescript</li>
         <li>C</li>
         <li>Bootstrap</li>
         <li>PHP</li>
@@ -18,6 +19,7 @@
         <li>Node.Js</li>
         <li>Express</li>
         <li>Angular (aprendendo)</li>
+        <li>NestJS</li>
     </ol>
 <p>Na <strong>página inicial</strong> você pode visualizar minha área de atuação, fotografia e meu currículo para download. Na <strong>sobre mim</strong>, conto mais sobre minha experiência e estudos. Logo após você visualizará as <strong>tecnologias</strong> já estudadas por mim e que tenho competências. Também é possível encontrar alguns dos meus <strong>melhores projetos</strong>, informações de <strong>contatos</strong> e o <strong>donwload do currículo</strong> no rodapé da página.</p>
 
